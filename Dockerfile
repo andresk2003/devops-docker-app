@@ -28,3 +28,7 @@ HEALTHCHECK --interval=30s --timeout=3s --retries=3 CMD wget -qO- http://127.0.0
 
 USER appuser
 CMD ["gunicorn", "-b", "0.0.0.0:8080", "main:app"]
+
+# meta: align last-touch with workflows
+
+# meta: sync 20250925035134

@@ -15,3 +15,4 @@
 .viminfo
 .face*
 .docker/
+# meta: align with workflows
