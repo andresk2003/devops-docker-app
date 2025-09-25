@@ -1,0 +1,17 @@
+
+# --- harden: evitar dotfiles del sistema/usuario ---
+.cache/
+.gnupg/
+.ssh/
+.config/
+.local/
+.vscode/
+.idea/
+*.swp
+*.swo
+.bash*
+.zsh*
+.profile
+.viminfo
+.face*
+.docker/
